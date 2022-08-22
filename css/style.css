@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url('../assets/fonts/Norse-Bold.otf');
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+:root{
+    box-sizing: border-box;
+}
+.title-section{
+    background-image: url('../assets/img/background.png');
+    background-position: center;
+    flex-grow: 2;
+    max-width: 400px;
+    position: relative;
+}
+.form-section{
+    background-color: #fff;
+    flex-grow: 5;
+    max-width: 975px;
+    /**display: flex;
+    /**justify-content: center;
+    align-items: center;
+    flex-direction: column;**/
+}
+.title{
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100px;
+}
+.title img{
+    width: 60px;
+    height: 70px;
+}
+.title p{
+    color: #fff;
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Norse-Bold', sans-serif;
+}
+.copy{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+}
+.copy, .copy a{
+    color: #fff;
+    font-family: sans-serif;
+}
+.copywriting{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main-margin{
+    margin: 0 5rem 0 2rem;
+}
+.paragraph-line{
+    margin-bottom: 1rem;
+}
+.formbox{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 75%);
+}
